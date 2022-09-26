@@ -14,7 +14,7 @@ export default function Dashboard(params)
     
     return (
         <div>
-            <h1>Dashboard</h1>
+            <h1>Logs</h1>
         </div>
     );
 }
