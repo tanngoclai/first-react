@@ -1,6 +1,7 @@
 import { Authenticate } from "../services/api/authenticate";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import NavigationBar from "../components/navigation";
 
 export default function Dashboard(params) 
 {
@@ -14,7 +15,10 @@ export default function Dashboard(params)
     
     return (
         <div>
-            <h1>Dashboard</h1>
+            <NavigationBar></NavigationBar>
+            <div>
+                <h1>Dashboard</h1>
+            </div>
         </div>
     );
 }
